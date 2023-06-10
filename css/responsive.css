@@ -1,0 +1,382 @@
+@media screen and (max-width: 1025px){
+
+/*      HEADER MENU     */
+
+    .guia{width: 100%;}
+
+/*      HEADER INICIO IMAGEM        */
+
+    .quadrado{
+        width: 70%;
+        height: 67%;
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+
+    .imagem_depois{margin-top: 40%;}
+
+/*      SESSAO SOBRE        */
+
+    .sobre_escrita{margin-top: 0px;}
+
+    .sobre h2{margin-top: 0px;}
+
+/*      SESSAO DEPOIMENTOS      */
+
+    .box_depoimentos .img_dpmt{
+        width: 20%;
+        height: 20%; 
+    }
+
+    .box_depoimentos h2{margin-top: 20px;}
+
+    .box_depoimentos p{margin-top: 15px;}
+
+    .box_depoimentos{height: 270px;}
+}
+
+@media screen and (max-width: 770px){
+
+/*      HEADER MENU     */
+
+    .logo img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .menu_mobi{
+        display: block;
+        color: #817b6b;
+        font-size: 35px;
+        width: 100%;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    .guia{display: none;}
+
+    .guia_mobi a{
+        width: 100%;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        margin-top: 20px;
+        border-bottom: 1px solid black;
+        padding-bottom: 5px;
+        color: black;
+    }
+
+    .guia_mobi{
+        z-index: 99;
+        width: 100%;
+        height: 41%;
+        background-color: #e1d7cc;
+        display: none;
+        position: absolute;
+    }
+
+    .menu{margin-top: 15px;}
+
+    .logo img{
+        width: 85px;
+        height: 85px;
+    }
+
+    .logo{
+        width: 17%;
+    }
+
+/*      HEADER INICIO IMAGEM        */
+
+    .inicio_imagem{
+        width: 50%;
+        display: block;
+        position: relative;
+    }
+
+    .imagem_antes{
+        max-width: 85%;
+        position: static;
+        margin-top: 0px;
+        margin-left: 15%;
+    }
+
+    .imagem_antes h2{
+        position:static;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    
+    .imagem_depois{
+        max-width: 85%;
+        margin-top: 0%;
+        margin-left: 15%;
+        position: static;
+    }
+
+    .imagem_depois h2{
+        position: static;
+        top: 0%;
+        right: 0%;
+        text-align: right;
+    }
+
+    .quadrado{display: none;}
+
+/*      HEADER INICIO ESCRITA       */
+
+    .inicio_texto h2{margin-top: 60px;}
+
+    .inicio_botao{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .inicio_botao .botao1{
+        display: block;
+        padding: 8px 35px;
+        margin-right: 0px;
+    }
+
+    .inicio_botao .botao2{
+        display: block;
+        padding: 7px 39px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+/*      SESSAO CUIDADOS     */
+
+    .cuidados{margin-top: 60px;}
+
+    .texto_cuidados{padding-bottom: 480px;}
+
+    .box_cuidados{
+        margin-top: -450px;
+        flex-wrap: wrap;
+        padding-left: 12%;
+    }
+
+    .box_cuidados .box{
+        width: 30%;
+        margin: 5% 7%; 
+    }
+
+/*      SESSAO SOBRE        */
+
+    .sobre{display: none;}
+
+    .sobre_mobi{display: block;}
+
+    .sobre_mobi .box_sobre{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    
+    .imagem_sobre{
+        max-width: 50%;
+    }
+    
+    .box_sobre h2{
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-style: italic;
+    }
+    
+    .box_sobre p{
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 10%;
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 640px){
+
+/*      HEADER INICIO ESCRITA       */
+
+    .inicio_escrita{width: 100%;}
+
+    .inicio_texto h2{margin-top: 0px;}
+
+    .inicio_botao{padding: 0 10%;}
+
+/*      HEADER INICIO IMAGEM        */
+
+    .inicio_imagem{
+        width: 100%;
+        display: flex;
+        position: relative;
+        padding-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .imagem_antes{
+        max-width: 50%;
+        position: absolute;
+        margin-top: 30px;
+        left: -15%;
+    }
+
+    .imagem_antes h2{
+        color: #817b6b;
+        font-style: italic;
+        position: absolute;
+        margin-left: 105%;
+        margin-top: 1%;
+    }
+    
+    .imagem_depois{
+        max-width: 50%;
+        margin-top: 31%;
+        margin-left: 50%;
+        position: absolute;
+    }
+
+    .imagem_depois h2{
+        position: absolute;
+        color: #817b6b;
+        font-style: italic;
+        top: 78%;
+        right: 104%;
+    }
+
+    .quadrado{
+        width: 45%;
+        padding-bottom: 43%;
+        margin-left: 27%;
+        margin-top: 12%;
+        margin-bottom: 0;
+        display: block;
+    }
+
+/*      SESSAO CUIDADOS     */
+
+    .cuidados{margin-top: 60px;}
+
+    .texto_cuidados{padding-bottom: 480px;}
+
+    .box_cuidados{
+        margin-top: -450px;
+        flex-wrap: wrap;
+        padding-left: 12%;
+    }
+
+    .box_cuidados .box{
+        width: 34%;
+        margin: 5% 3%; 
+    }
+
+/*      SESSAO SOBRE        */    
+
+        .sobre_titulo{
+            padding-top: 100px;
+        }
+
+    /*      SESSAO DEPOIMENTOS      */
+
+    .box_depoimentos h2{margin-top: 15px;}
+
+    /*      SESSAO CONTATO      */
+
+    .formulario form input[name=nome]{
+        width: 100%;
+    }
+
+    .formulario form input[name=telefone]{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 380px){
+
+    .logo img{
+        width: 50px;
+        height: 50px;
+    }
+
+/*      HEADER INICIO IMAGEM        */
+
+    .guia_mobi{height: 34%;}
+
+    .inicio_imagem{display: none;}
+
+/*      SESSAO CUIDADOS     */
+
+    .texto_cuidados{padding-bottom: 880px;}
+
+    .box_cuidados{
+        margin-top: -840px;
+        padding: 0 15%;
+    }
+
+    .box_cuidados .box{
+        width: 100%;
+        margin: 5% 0%; 
+    }
+
+/*      SESSAO SOBRE        */
+
+    .imagem_sobre{
+        max-width: 1000%;
+    }
+
+/*      SESSAO DEPOIMENTOS      */    
+
+    .box_depoimentos h2{margin-top: 11px;}
+
+    .box_depoimentos p{padding-top: 10px;}
+    
+/*      SESSAO TRABALHOS        */
+
+    .serviço{flex-wrap: wrap;}
+
+    .box_serviço{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .serviço_titulo{display: none;}
+
+/*      SESSAO CONTATO      */
+
+    .contato_meios{flex-wrap: wrap;}
+
+    .formulario{
+        width: 100%;
+        border-right: none;
+    }
+
+    .gps{
+        border-left: none;
+        width: 100%;
+    }
+
+/*      SESSAO SIGA-NOS     */
+
+    .regua_siganos i{margin-top: 30px;}
+
+    .regua_siganos{padding-top: 0px;}
+
+/*      FOOTER      */
+
+    .titulo_rodape h2{padding-top: 0px;}
+
+    .info_estudio p{width: 50%;}
+}
+
+@media screen and (max-width: 375px){
+
+    /*      HEADER INICIO IMAGEM        */
+    
+        .guia_mobi{height: 40%;}
+}
