@@ -40,7 +40,6 @@ html,body{
 ul{
     text-align: right;
     width: 100%;
-    
 }
 
 ul li{
@@ -175,38 +174,66 @@ ul li a:hover{
 
 .cuidados{
     width: 100%;
+    background-color: #533d24;
+    margin-top: 60px;
+    padding: 60px 0 50px;
+    position: relative;
 }
 
 .texto_cuidados{
-    
+    text-align: center;
+    padding: 0 2% 140px;
 }
 
 .texto_cuidados h2{
-    
+    font-size: 3rem;
+    color: white;
 }
 
 .texto_cuidados p{
-    
+    font-size: 1.8rem;
+    margin-top: 25px;
+    color: white;
 }
 
 .box_cuidados{
-    
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 200px;
 }
 
 .box_cuidados .box{
-      
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    color: #817b6b;
+    -webkit-box-shadow: 5px 15px 50px -20px;
+    -moz-box-shadow: 5px 15px 50px -20px;
+    box-shadow: 5px 15px 50px -20px;
 }
 
 .box_cuidados .box h2{
-    
+    margin-top: 5%;
+    font-size: 2.5rem;
 }
 
 .box_cuidados .box .icon_cuidados{
-   
+   width: 55%;
+   height: 55%;
+   border: 1px solid #817b6b;
+   border-radius: 50%;
+   margin: 10% auto 0;
+   display: flex;
+   align-items: center;
 }
 
 .box_cuidados .box .icon_cuidados i{
-    
+    margin: auto;
+    font-size: 5rem;
 }
 
 /*      SESSAO SOBRE        */
@@ -214,33 +241,30 @@ ul li a:hover{
 .sobre{
     width: 100%;
     background-color: #e1d7cc;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
+    padding-top: 120px;
 }
 
 .sobre_titulo{
-    padding-top: 150px;
     text-align: center;
 }
 
 .sobre_titulo h2{
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .sobre_titulo p{
     margin-top: 25px;
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 0 2%;
 }
 
 /*      SESSAO SOBRE 1      */
 
-.sobre_mobi{display: none;}
-
 .sobre .box_sobre{
     width: 100%;
     display: flex;
-    flex-wrap: nowrap;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .imagem_sobre{
@@ -257,19 +281,18 @@ ul li a:hover{
 .sobre_escrita{
     width: 50%;
     text-align: center;
-    margin-top: 30px;
+    margin: auto;
+    padding: 0 2%;
 }
 
 .sobre h2{
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 2.5rem;
     font-style: italic;
 }
 
 .sobre p{
-    margin-top: 25px;
-    padding: 0 10%;
-    font-size: 18px;
+    margin-top: 25px;   
+    font-size: 1.8rem;
 }
 
 /*      SESSAO DEPOIMENTOS      */
@@ -277,23 +300,21 @@ ul li a:hover{
 .depoimentos{
     background-color: #533d24;
     width: 100%;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 
 .depoimentos_titulo{
     text-align: center;
-    padding-top: 60px;
+    color: white;
 }
 
 .depoimentos_titulo h2{
-    color: white;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .depoimentos_titulo p{
-    color: wheat;
-    margin-top: 30px;
-    font-size: 18px;
+    margin-top: 25px;
+    font-size: 1.8rem;
 }
 
 /*      SLIDER DEPOIMENTOS      */
@@ -303,137 +324,99 @@ ul li a:hover{
     margin-top: 50px;
 }
 
-.box_single{
-    width: 100%;
-    padding: 0 6%;
-}
-
 .box_depoimentos{
-    width: 100%;
-    height: 300px;
+    width: 50%;
     background-color: white;
-    padding: 0 2%;
+    padding: 0 2% 20px;
+    margin: auto;
 }
 
 .img_h2{
-    width: 80%;
+    width: 100%;
     display: flex;
-    margin: 0 auto;
-    margin-top: 10px;
-    padding-top: 10px;
+    border-bottom: 1px solid #817b6b;
 }
 
 .box_depoimentos .img_dpmt{
-    width: 16%;
-    height: 15%; 
-    background-color: #817b6b;
-    border: 1px solid #817b6b;
-    border-radius: 60px;
+    width: 10rem;
+    height: 10rem;
+    margin: 20px 0 0 50px;
+    
 }
 
 .img_dpmt img{
     width: 100%;
-    background-size: cover;
-    border-radius: 70px;
+    border-radius: 50%; 
 }
 
 .box_depoimentos h2{
-    width: 72%;
-    font-size: 20px;
-    margin-top: 30px;
-    padding-left: 5%;
+    width: 100%;
+    font-size: 2.5rem;
     color: #817b6b;
+    align-items: center;
+    margin: auto;
+    padding-left: 30px;
 }
 
 .box_depoimentos p{
     width: 100%;
-    padding: 0 7%;
-    margin-top: 20px;
-    border-top: 1px solid #817b6b;
-    padding-top: 20px;
+    padding: 20px 7% 25px;
+    font-size: 1.8rem;
 }
 
-/*      ESTILO DO SLICK SLIDER      */
-
-.slick-dotted ul{
-    list-style-type: none;
-    text-align: center;
-    position: relative;
-    margin-top: 50px;
-}
-
-.slick-dotted li{
-    display: inline-block;
-    margin: 0 7px;
-}
-
-.slick-dotted button:focus{
-    outline: 0;
-}
-
-.slick-dotted li button{
-    width: 16px;
-    height: 16px;
-    border-radius: 8px;
-    color: #817b6b;
-    border-width: 0;
-    background: #817b6b;
-    opacity: 6;
-    cursor: pointer;
-}
-
-li.slick-active button{
-    background: black;
-    color: black;
+.ponto{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    display: block;
+    margin: 30px auto 0;
 }
 
 /*      SESSAO TRABALHOS        */
 
 .trabalhos{
-    margin-top: 80px;
+    margin-top: 60px;
     width: 100%;
     padding-bottom: 60px;
 }
 
-.titulo_trabalhos{text-align: center;}
+.titulo_trabalhos{
+    text-align: center;
+    padding: 0 2%;
+}
 
-.titulo_trabalhos h2{font-size: 30px;}
+.titulo_trabalhos h2{
+    font-size: 3rem;
+}
 
 .titulo_trabalhos p{
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-top: 25px;
-    padding: 0 2%;
 }
 
-.serviço_titulo{
+.serviço_container{
     width: 100%;
     display: flex;
-    padding: 0 2%;
     margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.serviço_titulo h2{
-    width: 50%;
-    margin-left: 22%;
-    margin-left: 30px;
-    text-align: center;
-    color: #533d24;
-    font-size: 40px;
-    font-style: italic;
 }
 
 .serviço{
     width: 100%;
-    display: flex;
-    padding: 0 2%;
+}
+
+.serviço h2{
+    color: #533d24;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
 }
 
 .box_serviço{
     border: 1px solid #533d24;
-    width: 50%;
     text-align: center;
-    margin-left: 30px;
+    width: 95%;
+    margin: 20px auto 0;
 }
 
 .serviço_custo{
@@ -441,6 +424,10 @@ li.slick-active button{
     padding-bottom: 20px;
     font-style: italic;
     color: #817b6b;
+}
+
+.serviço_custo h3{
+    font-size: 2.4rem;    
 }
 
 .serviço_custo p{
@@ -452,16 +439,21 @@ li.slick-active button{
 
 .contato{
     width: 100%;
+    margin-top: 30px;
 }
 
-.titulo_contato{text-align: center;}
+.titulo_contato{
+    text-align: center;
+    padding: 0 2%;
+}
 
-.titulo_contato h2{font-size: 30px;}
+.titulo_contato h2{
+    font-size: 3rem;
+}
 
 .titulo_contato p{
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-top: 25px;
-    padding: 0 2%;
 }
 
 .contato_meios{
@@ -486,7 +478,7 @@ li.slick-active button{
 }
 
 .formulario form input[type=text]{
-    line-height: 30px;
+    line-height: 3rem;
     padding-left: 5px;
 }
 
@@ -510,7 +502,7 @@ li.slick-active button{
     height: 100px;
     max-height: 100px;
     padding-left: 5px;
-    line-height: 30px;
+    line-height: 3rem;
 }
 
 .formulario form input[type=submit]{
@@ -521,6 +513,11 @@ li.slick-active button{
     border: 1px solid #533d24;
     color: #533d24;
     cursor: pointer;
+}
+
+.formulario form input[type=submit]:hover{
+    font-weight: bold;
+    border: 2px solid #533d24;
 }
 
 .gps{
@@ -553,36 +550,39 @@ li.slick-active button{
 
 .siganos{
     width: 100%;
-    padding-bottom: 60px;
+    padding: 60px 0;
     background-color: #e1d7cc;
 }
 
 .titulo_siganos{
     text-align: center;
-    padding-top: 60px;
 }
 
-.titulo_siganos h2{font-size: 30px;}
+.titulo_siganos h2{
+    font-size: 3rem;
+}
 
 .titulo_siganos p{
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-top: 25px;
     padding: 0 2%;
 }
 
 .regua_siganos{
     width: 100%;
-    text-align: center;
-    padding-top: 40px;
+    padding: 40px 10% 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .regua_siganos i{
     font-size: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
-.regua_siganos a{color: black;}
+.regua_siganos a{
+    color: black;
+    margin: auto;
+}
 
 /*      FOOTER      */
 
@@ -592,7 +592,8 @@ li.slick-active button{
 }
 
 .titulo_rodape{
-    padding-top: 30px;
+    width: 100%;
+    padding-top: 60px;
     display: flex;
     padding-left: 60px;
 }
@@ -609,9 +610,8 @@ li.slick-active button{
 .titulo_rodape h2{
     color: white;
     font-style: italic;
-    padding-left: 20px;
-    padding-top: 14px;
-    font-size: 20px;
+    padding: 14px 0 0 24px;
+    font-size: 2rem;
 }
 
 .info_estudio{
@@ -648,15 +648,6 @@ li.slick-active button{
 .info_direitos h2{
     width: 100%;
     color: white;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: italic;
 }
-
-.info_direitos p{
-    color: white;
-    width: 50%;
-    padding-top: 40px;
-    font-style: italic;
-}
-
-
