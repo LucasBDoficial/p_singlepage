@@ -27,12 +27,21 @@
 
 	<nav class="menu">
 		<img src="image/logo.jpg" alt="logo do site">
+
 		<ul>
 			<li><a href="#">Home</a></li>
-			<li><a href="#">Sobre nós</a></li>
-			<li><a href="#">Comtato</a></li>
-			<li><a href="#">Siganos</a></li>
+			<li><a href="#about">Sobre nós</a></li>
+			<li><a href="#testimony">Depoimentos</a></li>
+			<li><a href="#work">Trabalhos</a></li>
+			<li><a href="#contact">Contato</a></li>
 		</ul><!--menu-->
+
+		<div class="menu_toggle">
+			<div class="one"></div>
+			<div class="two"></div>
+			<div class="three">
+		</div>
+
 	</nav>
 
 	<div class="start_text">
@@ -52,11 +61,11 @@
 	</div><!--inicio_escrita-->
 
 	<div class="start_image">
-		<div class="image_berofe"></div><!--imagem_antes-->
+		<div class="image_berofe"><img src="/image/banner.jpg" alt="imagem antes"></div><!--imagem_antes-->
 
 		<div class="square"></div><!--quadrado-->
 	
-		<div class="image_after"></div><!--imagem_depois-->
+		<div class="image_after"><img src="/image/banner.jpg" alt="imagem depois"></div><!--imagem_depois-->
 	</div><!--inicio_imagem-->
 </header>
 
@@ -67,7 +76,7 @@
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elit</p>
 		</div><!--texto_cuidados-->
 
-		<div class="box_careful">
+		<div class="box_careful ">
 			<div class="box">
 				<h2>lorem</h2>
 				<div class="icon_careful">
@@ -98,7 +107,7 @@
 		</div><!--box_cuidados-->
 </section><!--cuidados-->
 
-<article id="sobrenos" class="about">
+<article id="about" class="about">
 
 	<div class="about_title">
 		<h2>Sobre nós</h2>
@@ -128,13 +137,13 @@
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div><!--sobre_escrita-->
 
-			<div class="image_about">
+			<div class="image_about ia">
 				<img src="/image/foto.jpg" />
 			</div><!--imagem_sobre-->
 	</div><!--box_sobre-->
 </article><!--sobre-->
 
-<section class="testimony">
+<section id="testimony" class="testimony">
 	<div class="testimony_title">
 		<h2>Depoimentos</h2>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
@@ -142,9 +151,9 @@
 
 	<div class="testimony_ruler">
 
-		<button class="back"><i class="fa-solid fa-left-long"></i></button>
+		<button class="back"><i class="fa-solid fa-chevron-left"></i></button>
 
-			<div class="box_testimony ">
+			<div class="box_testimony on">
 				<div class="img_h2">
 					<div class="img_dpmt"><img src="/image/perfil.jpg" alt="Fotos de perfil dos clientes"></div><!--img_dpmt-->
 					<h2>lorem ipsum 1</h2>
@@ -160,7 +169,7 @@
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet vitae provident voluptatem error explicabo dolor iusto? Est deleniti expedita consequatur earum corrupti.</p>
 			</div><!--box_depoimnetos-->
 
-			<div class="box_testimony on">
+			<div class="box_testimony ">
 				<div class="img_h2">
 					<div class="img_dpmt"><img src="/image/perfil.jpg" alt="Fotos de perfil dos clientes"></div><!--img_dpmt-->
 					<h2>Lorem ipsum 3</h2>
@@ -168,12 +177,12 @@
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet vitae provident voluptatem error explicabo dolor iusto? Est deleniti expedita consequatur earum corrupti.</p>
 			</div><!--box_depoimnetos-->
 
-		<button class="next"><i class="fa-solid fa-right-long"></i></button>
+		<button class="next"><i class="fa-solid fa-chevron-right"></i></button>
 
 	</div><!--depoimentos_regua-->
 </section><!--depoimentos-->
 
-<section class="work">
+<section id="work" class="work">
 
 	<div class="title_work">
 		<h2>Trabalhos</h2>
@@ -183,7 +192,7 @@
 	<div class="service_container">
 	
 		<div class="service">
-			<h2>Combos</h2>
+			<h2>Basicos</h2>
 
 			<div class="box_service">
 
@@ -241,7 +250,7 @@
 
 </section><!--trabalhos-->
 
-<section class="contact">
+<section id="contact" class="contact">
 	<div class="title_contact">
 		<h2>Contato</h2>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
@@ -269,11 +278,6 @@
 </section><!--contato-->
 
 <section class="media">
-	<div class="title_media">
-		<h2>Siga-nos</h2>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-	</div><!--titulo_siganos-->
-
 	<div class="ruler_media">
 		<a href="#"><i class="fa-brands fa-instagram"></i></a>
 		<a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -306,7 +310,8 @@
 	</div><!--info_direitos-->
 </footer><!--rodape-->
 
-	<script src="script.js"></script>	
+	<script src="/js/script.js"></script>	
+	<script src="/js/menu.js"></script>
     <script src="https://kit.fontawesome.com/759690e44f.js" crossorigin="anonymous"></script> 
 </body>
 </html>

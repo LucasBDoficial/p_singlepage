@@ -2,13 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 html {
-    /* a cada 1rem será considera 10px */
-    font-size: 62.5%;
+    font-size: 62.5%; 
+    scroll-behavior: smooth;
 }
 
 body {
@@ -28,7 +27,6 @@ html,body{
     flex-wrap: wrap;
     width: 90%;
     margin: 30px auto 0;
-    padding-bottom: 150px;
 }
 
 .menu{
@@ -68,12 +66,13 @@ ul li a:hover{
 .start_text{
     width: 40%;
     padding-right: 2%;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .text{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 25%;
 }
 
 .text h1{
@@ -139,10 +138,14 @@ ul li a:hover{
     margin-top: 30px;
 }
 
+.start_image img{
+    width: 100%;
+    height: 100%;
+}
+
 .image_berofe{
-    background: white url(/image/banner.jpg) no-repeat center;
     width: 50%;
-    height: 80%;
+    max-height: 50%;
     z-index: 5;
     -webkit-box-shadow: 5px 15px 50px -20px;
     -moz-box-shadow: 5px 15px 50px -20px;
@@ -150,10 +153,9 @@ ul li a:hover{
 }
  
 .image_after{
-    background: white url(/image/banner.jpg) no-repeat center;
     width: 50%;
-    height: 80%;
-    margin-top: 20rem;
+    max-height: 50%;
+    margin-top: 25%;
     margin-left: 1%;
     z-index: 4;
     -webkit-box-shadow: 5px 15px 50px -20px;
@@ -164,9 +166,9 @@ ul li a:hover{
 .square{
   border: 5px solid #533d24;
   width: 50%;
-  height: 90%;
+  height: 50%;
   position: absolute;
-  top: 25%;
+  top: 22%;
   left: 25%;
 }
 
@@ -175,7 +177,7 @@ ul li a:hover{
 .careful{
     width: 100%;
     background-color: #533d24;
-    margin-top: 60px;
+    margin-top: 30px;
     padding: 60px 0 50px;
     position: relative;
 }
@@ -264,25 +266,29 @@ ul li a:hover{
 .about .box_about{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 60px;
 }
 
 .image_about{
-    max-width: 50%;
+    width: 50%;
+    max-width: 1000px;
+    height: 100%;
+    -webkit-box-shadow: 5px 15px 50px -20px;
+    -moz-box-shadow: 5px 15px 50px -20px;
+    box-shadow: 5px 15px 50px -20px; 
 }
 
 .image_about img{
     width: 100%;
-    -webkit-box-shadow: 5px 15px 50px -20px;
-    -moz-box-shadow: 5px 15px 50px -20px;
-    box-shadow: 5px 15px 50px -20px; 
+    height: 100%;
 }
 
 .about_text{
     width: 50%;
     text-align: center;
     margin: auto;
-    padding: 0 2%;
+    padding: 0 3%;
 }
 
 .about h2{
@@ -332,13 +338,15 @@ ul li a:hover{
     padding: 0 2% 20px;
     opacity: 0;
     position: absolute;
+    -webkit-box-shadow: 5px 15px 50px -20px;
+    -moz-box-shadow: 5px 15px 50px -20px;
+    box-shadow: 5px 15px 50px -20px; 
 }
 
 .on{
     opacity: 1; 
     position: static;
     margin: auto;
-    transition: 0s;
     transition: 1s;
 }
 
@@ -348,7 +356,7 @@ ul li a:hover{
     background-color: #533d24;
     cursor: pointer;
     border-radius: 50%;
-    padding: 5px;
+    padding: 1% 2%;
     transition: 0.5s;
     z-index: 10;
 }
@@ -397,9 +405,8 @@ button i{
 /*      SESSAO TRABALHOS        */
 
 .work{
-    margin-top: 60px;
     width: 100%;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 
 .title_work{
@@ -460,7 +467,7 @@ button i{
 
 .contact{
     width: 100%;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .title_contact{
@@ -480,6 +487,7 @@ button i{
 .contact_ways{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 40px;
 }
 
@@ -488,6 +496,7 @@ button i{
     border-top: 3px solid #817b6b;
     border-right: 3px solid #817b6b;
     border-bottom: 3px solid #817b6b;
+    display: flex;
 }
 
 .form form{
@@ -519,9 +528,9 @@ button i{
 }
 
 .form textarea[name=mensagem]{
-    width: 100%;
-    height: 100px;
+    min-width: 100%;
     max-height: 100px;
+    min-height: 100px;
     padding-left: 5px;
     line-height: 3rem;
 }
@@ -543,7 +552,6 @@ button i{
 
 .gps{
     width: 50%;
-    position: relative;
     border-top: 3px solid #533d24;
     border-left: 3px solid #533d24;
     border-bottom: 3px solid #533d24;
@@ -571,7 +579,7 @@ button i{
 
 .media{
     width: 100%;
-    padding: 60px 0;
+    padding: 30px 0;
     background-color: #e1d7cc;
 }
 
@@ -579,30 +587,25 @@ button i{
     text-align: center;
 }
 
-.title_media h2{
-    font-size: 3rem;
-}
-
-.title_media p{
-    font-size: 1.8rem;
-    margin-top: 25px;
-    padding: 0 2%;
-}
-
 .ruler_media{
     width: 100%;
-    padding: 40px 10% 0;
+    padding: 0 10%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .ruler_media i{
-    font-size: 50px;
+    font-size: 5rem;
+}
+
+.ruler_media i:hover{
+    font-size: 4.9rem;
 }
 
 .ruler_media a{
     color: black;
     margin: auto;
+    cursor: pointer;
 }
 
 /*      FOOTER      */
