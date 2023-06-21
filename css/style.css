@@ -274,14 +274,14 @@ ul li a:hover{
     width: 50%;
     max-width: 1000px;
     height: 100%;
-    -webkit-box-shadow: 5px 15px 50px -20px;
-    -moz-box-shadow: 5px 15px 50px -20px;
-    box-shadow: 5px 15px 50px -20px; 
 }
 
 .image_about img{
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 5px 15px 50px -20px;
+    -moz-box-shadow: 5px 15px 50px -20px;
+    box-shadow: 5px 15px 50px -20px; 
 }
 
 .about_text{
