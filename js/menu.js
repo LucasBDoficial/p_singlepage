@@ -10,3 +10,8 @@ menuToggle.addEventListener("click", () => {
     menuSection.classList.toggle("on", show)
     show = !show;
 })
+
+document.querySelector("ul")
+    .addEventListener("click", () => {
+       location.reload() 
+})
