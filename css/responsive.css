@@ -174,7 +174,7 @@
     }
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 425px){
     .text{
         margin-top: 15%;
     }
@@ -206,6 +206,10 @@
 
     .text_careful{
         padding: 0 2% 760px;
+    }
+
+    .box_careful{
+        padding: 0 10%;
     }
 
     .image_about{
