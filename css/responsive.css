@@ -237,6 +237,20 @@
         margin-top: 15%;
     }
 
+    .start_button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .start_button button{
+        width: 50%;
+    }
+
+    .buttonr{
+        margin-top: 10px;
+    }
+
     .start_image{
         flex-wrap: wrap;
     }
