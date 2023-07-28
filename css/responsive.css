@@ -47,6 +47,10 @@
     html{
         font-size: 50%;
     }
+
+    .testimony_ruler button:hover{
+        background-color: #533d24;
+    }
 }
     
 @media screen and (max-width: 770px){
